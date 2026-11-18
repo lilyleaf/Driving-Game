@@ -32,7 +32,7 @@ public class PedestrianHit : MonoBehaviour
         //Vector3 flingDirection = col.ClosestPoint(0).normal;
         //  civ.AddForce(flingDirection * launchForce, ForceMode.Impulse);
     
-        Destroy(gameObject,5);
+        Destroy(gameObject,10);
         //gameObject.GetComponent<CapsuleCollider>().enabled = true; 
         }
     }
